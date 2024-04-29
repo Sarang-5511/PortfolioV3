@@ -2072,7 +2072,7 @@ text-align: right;
 
         .introtext {
             margin: 10px auto;
-            width: 62%;
+            width: 80%;
         }
 
         .introtext p {
@@ -2140,7 +2140,13 @@ text-align: right;
             padding-left: 0px;
 
         }
-
+        .about-intro-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
         .aboutcontainer h2 {
             font-size: 2.5rem;
             font-weight: bold;
@@ -2648,5 +2654,31 @@ text-align: right;
             margin-top: -120px;
         }
 
+    }
+
+
+    #community-section {
+        padding: 5% 6% 0;
+        margin: auto;
+        background-image: url(assets/download\ \(2\).jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+        width: 100%;
+    
+    }
+    
+    .community h3 {
+        font-size: 40px;
+        color: wheat;
+        font-weight: 800;
+    
+    }
+    
+    .community p {
+        font-size: 18px;
+        color: whitesmoke;
+        font-weight: 500;
     }
 }
