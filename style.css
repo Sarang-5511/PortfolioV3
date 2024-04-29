@@ -14,12 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-[data-aos^=fade],
-[data-aos^=slide] {
-    opacity: 0;
-    transition-property: opacity, transform;
-}
-
 .cvbutton {
     background-color: #2d2c2c;
     padding: 15px;
@@ -1820,7 +1814,7 @@ text-align: right;
 
     html,
     body {
-        overflow-x: hidden;
+        overflow-x: none;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -2140,6 +2134,7 @@ text-align: right;
             padding-left: 0px;
 
         }
+
         .about-intro-buttons {
             display: flex;
             gap: 15px;
@@ -2147,6 +2142,7 @@ text-align: right;
             justify-content: center;
             align-items: center;
         }
+
         .aboutcontainer h2 {
             font-size: 2.5rem;
             font-weight: bold;
@@ -2282,14 +2278,14 @@ text-align: right;
         }
 
         /* .timeline-item:nth-child(odd){
-    padding-right: calc(50% + 30px);
-    text-align: right;
-    }
-    .timeline-item:nth-child(even){
-        padding-left: calc(50% + 30px);
-        text-align: left;
-    
-    } */
+        padding-right: calc(50% + 30px);
+        text-align: right;
+        }
+        .timeline-item:nth-child(even){
+            padding-left: calc(50% + 30px);
+            text-align: left;
+        
+        } */
         .timeline-dot {
             padding: 10px 18px;
             color: white;
@@ -2460,8 +2456,8 @@ text-align: right;
 
 
         .projects {
-           
-            
+
+
             width: 100%;
             margin: 0 auto 2rem;
         }
@@ -2666,40 +2662,44 @@ text-align: right;
         background-size: cover;
         height: fit-content;
         width: 100%;
-    
+
     }
-    
+
     .community h3 {
         text-align: center;
-        font-size:35px;
+        font-size: 35px;
         color: wheat;
         font-weight: 800;
-    
+
     }
-    
+
     .community p {
         font-size: 16px;
         color: whitesmoke;
         font-weight: 500;
         text-align: justify;
     }
-    .swiper{
+
+    .swiper {
         width: 100%;
         height: 230px;
     }
+
     #contact-section {
         padding: 18% 6%;
         margin: auto;
     }
+
     .contact-buttons {
         margin-top: 30px;
         display: flex;
-       gap: 0px;
+        gap: 0px;
         justify-content: space-between;
         /* Ensure horizontal centering */
         align-items: center;
         /* Ensure vertical centering if needed */
     }
+
     .contact-button2 {
         background-color: #32A9FF;
         color: #f4f0f0;
@@ -2713,12 +2713,12 @@ text-align: right;
         letter-spacing: 2px;
         transition: all 0.3s ease-in;
     }
-    
+
     .contact-button2 a {
         color: white;
         text-decoration: none;
     }
-    
+
     .contact-button2:hover {
         transform: translateY(-3px);
     }

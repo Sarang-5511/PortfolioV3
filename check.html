@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="particles.js"></script>
+
+    <style>
+/* JOURNEY SECTION STARTS */
+#journey-section {
+    margin: auto;
+    padding: 3% 10% 0;
+}
+
+.journeycontainer h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.journeycontainer p {
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.timeline-items {
+    padding: 30px 0 0 0;
+    max-width: 1200px;
+    margin: 30px auto 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.timeline-items::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #32A9FF;
+    /* left: 50%; */
+
+}
+
+.timeline-item {
+    padding: 30px 10px;
+    width: 20%;
+    position: relative;
+}
+
+/* .timeline-item:nth-child(odd){
+padding-right: calc(50% + 30px);
+text-align: right;
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+    text-align: left;
+
+} */
+.timeline-dot {
+    padding: 10px 18px;
+    color: white;
+    background-color: #32A9FF;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -22px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    left: calc(50% - 26px);
+    /* margin-bottom: 10px; */
+}
+
+.timeline-date {
+    font-size: 25px;
+    color: deeppink;
+
+
+}
+
+.timeline-content {
+    margin: 5px auto 15px;
+    text-align: center;
+    padding: 20px 10px;
+    /* border: 1px solid black; */
+    height: 150px;
+
+
+
+}
+
+.timeline-content h5 {
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.timeline-content p {
+    color: #868686;
+}
+
+.timeline-content a {
+
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 12px;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+
+
+}
+
+.timeline-content a:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    color: #e3d9d9;
+}
+
+/* JOURNEY SECTION ENDS */
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <section id="journey-section">
+        <div class="container-fluid p-0">
+            <h2 class="text-center underline">My Journey</h2>
+            <div class="journeycontainer" data-aos="fade-up" data-aos-duration="1000">
+
+                <p>As for my work experience, I have completed my internship in the web development domain at Mahindra
+                    and Mahindra and Redple Technologies. In addition, I was a research intern at VNIT, Nagpur, where I
+                    explored blockchain and developed a lab experiment for blockchain functioning.</p>
+                <p> I'm open to Job opportunities where I can contribute my learnings, learn and grow as a developer in
+                    the industry. Any leads concerning the same are welcome and highly appreciated. Thank you!</p>
+            </div>
+
+            <div class="timeline-items" data-aos="fade-up" data-aos-duration="1000">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <div data-aos="zoom-in" data-aos-delay="100">1</div>
+                    </div>
+                    <div class="timeline-content" data-aos="fade-right" data-aos-delay="100">
+                        <h5>B.Tech (Computer Science)<br> VIT, Vellore
+                        </h5>
+                        <p class="m-0">2019-2023</p>
+                    </div>
+
+
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <div data-aos="zoom-in" data-aos-delay="700">2</div>
+                    </div>
+                    <div class="timeline-content" data-aos="fade-right" data-aos-delay="700">
+                        <h5>
+                            Research Intern <br>VNIT, Nagpur</h5>
+
+                        <p class="m-0">05/2022-07/2022</p>
+                    </div>
+
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <div data-aos="zoom-in" data-aos-delay="1200">3</div>
+                    </div>
+                    <div class="timeline-content" data-aos="fade-right" data-aos-delay="1200">
+                        <h5>
+                            AI/ML Intern <br>Ingenio Tech., Pune</h5>
+
+                        <p class="m-0">01/2023-05/2023</p>
+
+                    </div>
+
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <div data-aos="zoom-in" data-aos-delay="1700">4</div>
+                    </div>
+                    <div class="timeline-content" data-aos="fade-right" data-aos-delay="1700">
+                        <h5>
+                            Data Science Intern <br>Babyverse, Nagpur</h5>
+                        <p class="m-0">09/2023-Currently</p>
+                    </div>
+
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <div data-aos="zoom-in" data-aos-delay="2200">5</div>
+                    </div>
+                    <div class="timeline-content" data-aos="fade-right" data-aos-delay="2200">
+                        <h5>
+                            Upcoming Graduate Student <br>Arizona State University</h5>
+                        <p class="m-0">08/2024</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
