@@ -2687,4 +2687,40 @@ text-align: right;
         width: 100%;
         height: 230px;
     }
+    #contact-section {
+        padding: 18% 6%;
+        margin: auto;
+    }
+    .contact-buttons {
+        margin-top: 30px;
+        display: flex;
+       gap: 0px;
+        justify-content: space-between;
+        /* Ensure horizontal centering */
+        align-items: center;
+        /* Ensure vertical centering if needed */
+    }
+    .contact-button2 {
+        background-color: #32A9FF;
+        color: #f4f0f0;
+        font-size: 15px;
+        width: fit-content;
+        padding: 10px 15px;
+        text-align: center;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        transition: all 0.3s ease-in;
+    }
+    
+    .contact-button2 a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .contact-button2:hover {
+        transform: translateY(-3px);
+    }
+
 }
